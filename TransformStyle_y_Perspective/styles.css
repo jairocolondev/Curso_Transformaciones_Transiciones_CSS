@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e8e8e8;
+}
+
+.container__general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 5px solid #313131;
+  perspective: 300px;
+}
+
+.item {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: papayawhip;
+  border: 2px solid #bdbdbd;
+  opacity: 0.5;
+  transform-style: preserve-3d;
+  transform: rotateX(50deg);
+}
