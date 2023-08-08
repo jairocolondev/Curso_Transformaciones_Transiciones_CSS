@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e8e8e8;
+}
+
+.container__general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  /* width: 400px;
+  height: 100px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between; */
+}
+
+.container:hover .circle {
+  transform: translateX(200px);
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.one {
+  background: #f44336;
+  transition: transform 1s linear;
+  transition-delay: 0.5s;
+}
+
+.two {
+  background: #2196f3;
+  transition: transform 1s ease;
+  transition-delay: 1s;
+}
+
+.three {
+  background: #4caf50;
+  transition: transform 1.5s ease-in;
+  transition-delay: 1.5s;
+}
+
+.four {
+  background: #02e947;
+  transition: transform 2s ease-out;
+  transition-delay: 2s;
+}
+
+.five {
+  background: #9c27b0;
+  transition: transform 1s ease-in-out;
+  transition-delay: 2.5s;
+}
+
+.six {
+  background: #ff9800;
+  transition: transform 1s cubic-bezier(0.51, 0.72, 0.91, 0.26);
+  transition-delay: 3s;
+}
