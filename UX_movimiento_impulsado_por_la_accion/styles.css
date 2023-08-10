@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e8e8e8;
+}
+
+.container__general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pelota {
+  width: 100px;
+  height: 100px;
+  background: teal;
+  border-radius: 50%;
+  transition: transform 1.5s linear;
+}
+
+.pelota:hover {
+  transform: translateX(200px);
+  transition: transform 1s linear;
+}
